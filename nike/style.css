@@ -90,6 +90,10 @@
             transition: 0.5s;
         }
 
+        .navbar i{
+            font-size: 20px;
+        }
+
         .navbar-nav button {
             border: none;
             margin-right: 20px;
@@ -318,7 +322,7 @@
         
         #contact {
             background-color: #c2b3d7;
-            border-radius: 100px 0px;
+            border-radius: 50px 0px;
         }
         #contact #first-col {
             padding: 10px 5px;
@@ -390,6 +394,21 @@
                 display: block;
                 text-align: center;
             }
+
+            #home .carousel-item img{
+                width: 350px;
+                height: 350px;
+            }
+        }
+
+        @media screen and (max-width:576px) {
+            #home .carousel-item img{
+                width: 250px;
+                height: 250px;
+            }
+            /* #home .row div{
+                padding: 0 7px;
+            } */
         }
 
         @media screen and (max-width:992px) {
@@ -408,4 +427,21 @@
             #contact #contact-icon {
                 text-align: center;
             }
+        }
+
+        
+        @media screen and (max-width:350px) {
+           #about .img-shoe img {
+            width: 150px;
+            height: 150px;
+           }
+
+           #home .carousel-item img{
+            width: 150px;
+            height: 150px;
+            }
+            #home h2{
+                font-size: 23px;
+            }
+            
         }

@@ -1,0 +1,39 @@
+.navbar
+.navbar-expand-lg
+.navbar brand
+.ms-2 = margin-left="0.5rem"
+.text-uppercase
+.fw-lighter
+.py = padding-top,padding-bottom
+.px = padding-left,padding-right
+.translate-middle {
+    transform: translate(-50%,-50%)!important;
+}
+.start-100 {
+    left: 100%!important;
+}
+.top-0 {
+    top: 0!important;
+}
+.position-absolute {
+    position: absolute!important;
+}
+.badge {
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+
+.mx-auto {
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
+
+
